@@ -10,7 +10,7 @@ body {
 h1 {
   color: black;
   font-size: 40px;
-  font-family: "Lacquer", system-ui;
+  font-family: Verdana;
   font-weight: 800;
   font-style: bold;
 }
