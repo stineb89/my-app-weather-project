@@ -1,0 +1,123 @@
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -80px;
+}
+h1 {
+  color: black;
+  font-size: 40px;
+  font-family: "Lacquer", system-ui;
+  font-weight: 800;
+  font-style: bold;
+}
+p {
+  font-family: arial;
+  font-size: 15px;
+  width: 600px;
+  color: rgba(39, 33, 66, 0.4);
+}
+header {
+  text-align: center;
+  width: 500px;
+  margin: 5%;
+  border-bottom: 1px solid #f9f7fe;
+}
+a {
+  color: #885df1;
+}
+a:hover {
+  color: #663dce;
+}
+.container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 2px 5px 30px rgb(191, 191, 191);
+  padding: 2px;
+  width: 600px;
+}
+input {
+  padding: 8px;
+  margin: 0 2px;
+}
+footer {
+  text-align: center;
+  display: block;
+  margin: 5%;
+  padding-bottom: 35px;
+  padding-top: 10px;
+  border-top: 1px solid #f9f7fe;
+
+  width: 500px;
+}
+main {
+  padding: 25px;
+}
+strong {
+  color: #f65282;
+}
+.footer-text {
+  position: relative;
+  bottom: 50px;
+  left: 40px;
+}
+.submit {
+  background-color: #885df1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 55px;
+  font-size: 16px;
+  transition: 400ms ease-in-out;
+  padding: 2%;
+  position: relative;
+  right: 20px;
+}
+.submit .search {
+  border-radius: 9px;
+  border: none;
+}
+.search {
+  width: 400px;
+  height: 55px;
+  color: rgb(172, 172, 172);
+  background: #f9f7fe;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 15px;
+  position: relative;
+  top: 0px;
+  left: -20px;
+}
+.daily-information {
+  text-align: left;
+  color: #000000;
+  line-height: 130%;
+  padding-top: 0%;
+  margin-bottom: -2%;
+  position: relative;
+  top: -20px;
+}
+.currentTemperature {
+  font-size: 85px;
+  font-weight: bold;
+  position: relative;
+  bottom: 70px;
+  left: 380px;
+}
+.currentTemperature-emoji {
+  font-size: 39px;
+  position: relative;
+  bottom: 75px;
+  left: 390px;
+}
+.currentTemperature-cells {
+  font-size: 24px;
+  position: relative;
+  bottom: 115px;
+  left: 375px;
+}

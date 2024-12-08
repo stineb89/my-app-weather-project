@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <title>My weather application</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <form id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search"
+            id="textInput"
+            required
+          />
+          <input type="submit" value="search" class="submit" />
+        </form>
+      </header>
+      <main>
+        <div class="daily-information">
+          <h1 id="currentCity">Paris</h1>
+          <p>
+            <span id="realTime"> Saturday 15:32</span>, moderate rain
+            <br />
+            Humidity: <strong>87%</strong>, Wind:
+            <strong>7.2km/h</strong>
+          </p>
+        </div>
+        <div class="daily-information">
+          <span class="currentTemperature-emoji">☀️</span>
+          <span class="currentTemperature" id="currentTemperature">14</span
+          ><span class="currentTemperature-cells">°C</span>
+        </div>
+      </main>
+      <footer></footer>
+      <p class="footer-text">
+        This project was coded by
+        <a
+          href="https://www.shecodes.io/graduates/150131-stine-berg"
+          target="_blank"
+          >Stine Berg</a
+        >
+        and is <a href="#" target="_blank"> on GitHub</a> and
+        <a href="#" target="_blank">hosted on Netlify</a>
+      </p>
+    </div>
+  </body>
+</html>
