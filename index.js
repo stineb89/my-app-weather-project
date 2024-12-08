@@ -31,8 +31,6 @@ realtime.innerHTML = `${currentDay}, ${hours}:${minutes}`;
 function search(event) {
   event.preventDefault();
   let textInputElement = document.querySelector("#text-input");
-  let currentCityElement = document.querySelector("#currentCity");
-  currentCity.innerHTML = textInput.value;
 
   let city = textInput.value;
   let apiKey = "5e64c3tb70d2afbdd0ba0e314o875a8e";
@@ -51,4 +49,6 @@ function displayTemperature(response) {
   currentTemperatureElement.innerHTML = Math.round(
     response.data.temperature.current
   );
+  let currentCityElement = document.querySelector("#currentCity");
+  currentCity.innerHTML = response.data.city;
 }
